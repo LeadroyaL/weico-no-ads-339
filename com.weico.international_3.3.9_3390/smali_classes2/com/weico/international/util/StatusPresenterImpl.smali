@@ -209,9 +209,9 @@
 
     check-cast v0, Ljava/util/List;
 
-    invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
+#    invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
-    move-result-object v0
+#    move-result-object v0
 
     const-string v1, "Collections.unmodifiableList(ArrayList(statuses))"
 
